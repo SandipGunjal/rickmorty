@@ -1,0 +1,110 @@
+.hero-section {
+  height: calc(100vh);
+
+  overflow-x: hidden;
+  background-image: url("../../../../../../public/MediaAsset/HomePage/BackgroundElements/Background.png");
+  padding-top: var(--header-height);
+  background-size: cover;
+  background-position: 80%;
+
+  .hero-container {
+    height: 100%;
+
+    .hero-texts-wrapper {
+      height: 60%;
+
+      //gun-png-container
+      .gun-png-container {
+        position: absolute;
+        bottom: 5vh;
+        right: 0vw;
+        z-index: 0;
+
+        & > img {
+          height: 30vh;
+        }
+      }
+
+      .hero-texts-container {
+        position: relative;
+        z-index: 2;
+      }
+
+      // Hero-the
+      .hero-the {
+        .hero-the-bubble {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          height: 120%;
+          width: 120%;
+          transform: translate(-50%, -40%);
+        }
+      }
+      //hero-morty-png-container
+      .hero-morty-png-container {
+        height: 80%;
+        width: 80%;
+        .hero-morty-png {
+          height: 100%;
+          width: 100%;
+          max-height: calc(4rem + 3vw);
+        }
+      }
+      //hero-rick-text
+      .hero-rick-text {
+        background: var(--rm-hero-text-gradient-rick);
+        background-clip: text;
+        color: transparent;
+      }
+      .hero-and {
+        color: var(--rm-color-skyblue);
+      }
+      .hero-pill-png {
+        position: absolute;
+        top: -0px;
+        right: -10px;
+        height: 10px;
+        width: 20px;
+      }
+      .hero-text-morty {
+        background: var(--rm-hero-text-gradient-morty);
+        background-clip: text;
+        color: transparent;
+      }
+      .hero-texts-container {
+        gap: 2vw;
+      }
+      .watch-now-btn {
+        font-size: calc(0.8rem + 1vw);
+        color: var(--my-color);
+        .watch-now-icon {
+          margin-top: 4px;
+          font-size: calc(0.8rem + 1vw);
+          color: var(--my-color) !important;
+          path {
+            stroke: currentColor;
+          }
+        }
+      }
+      .hero-texts-item {
+        // margin-right: 2rem;
+        position: relative;
+      }
+      .hero-bottom-elements {
+        position: relative;
+        z-index: 2;
+      }
+      h1 {
+        font-size: calc(2rem + 4vw);
+      }
+    }
+
+    //***********************************************************************************************
+    //*********************************************Cast
+    //***********************************************************************************************
+    .hero-cast-wrapper {
+      height: 40%;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.svg-card {
+  border-color: transparent !important;
+  svg {
+    width: 100% !important;
+    height: 100%;
+
+    position: absolute;
+    inset: 0;
+    path {
+    }
+  }
+}
+
+.svg-card.card {
+  background-color: transparent;
+}

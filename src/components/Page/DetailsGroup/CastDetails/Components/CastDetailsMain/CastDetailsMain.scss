@@ -1,0 +1,103 @@
+.cast-details-main-wrapper {
+  padding-top: var(--header-height);
+  min-height: 100vh;
+  // height: 100%;
+
+  .cast-details-container {
+  }
+
+  .container {
+    height: 100%;
+  }
+  .bg-star {
+    position: absolute;
+    height: auto;
+    width: 100%;
+    bottom: 0px;
+  }
+
+  .cast-name-name {
+    color: var(--rm-color-skyblue);
+  }
+  .hollow-text-name-container {
+    position: absolute;
+    // height: 100%;
+    // width: ;
+    top: 45vh;
+    left: -10vw;
+    transform: translate(-0%, -50%);
+
+    & > div {
+      position: absolute;
+      transform: rotate(-90deg);
+      font-size: 3rem;
+      opacity: 0.4;
+    }
+    h1 {
+      white-space: nowrap;
+    }
+  }
+
+  .cast-info {
+    // height: calc(90vh - var(--header-height));
+    // min-height: calc(90vh - var(--header-height));
+    margin-top: 10vh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 2.5fr;
+
+    gap: 1rem;
+    grid-template-areas:
+      " status species gender"
+      "origin origin origin"
+      "last-location last-location last-location"
+      "episodes episodes episodes";
+  }
+
+  .cast-info > div {
+    height: 100%;
+    width: 100%;
+  }
+
+  .image-icon {
+    height: 30px;
+    width: 30px;
+  }
+
+  .status {
+    grid-area: status;
+  }
+  .species {
+  }
+  grid-area: species;
+
+  .gender {
+    grid-area: gender;
+  }
+  .origin {
+    grid-area: origin;
+  }
+  .last-location {
+    grid-area: last-location;
+  }
+  .episodes {
+    grid-area: episodes;
+    .episodes-list {
+      // height: 40vh;
+      margin-top: 1rem;
+      width: 100%;
+      max-height: 20vh;
+      overflow-y: auto;
+      // overflow: auto;
+
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      &::-webkit-scrollbar {
+        display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      -ms-overflow-style: none; /* IE and Edge */
+      scrollbar-width: none; /* Firefox */
+    }
+  }
+}
