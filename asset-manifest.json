@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/rickmorty/static/css/main.875be042.css",
+    "main.js": "/rickmorty/static/js/main.c10924fc.js",
+    "static/js/787.28cb0dcd.chunk.js": "/rickmorty/static/js/787.28cb0dcd.chunk.js",
+    "static/media/Background.png": "/rickmorty/static/media/Background.3036768c71d813640b30.png",
+    "static/media/TTTravels-BoldItalic.ttf": "/rickmorty/static/media/TTTravels-BoldItalic.efc29d3c821cbe9e04e5.ttf",
+    "static/media/TTTravels-Regular.ttf": "/rickmorty/static/media/TTTravels-Regular.92a0c3030c288ad87583.ttf",
+    "static/media/SanMarinoBeach-2OOLW.ttf": "/rickmorty/static/media/SanMarinoBeach-2OOLW.b07a29dbb7f150f293a1.ttf",
+    "index.html": "/rickmorty/index.html",
+    "static/media/arrow.svg": "/rickmorty/static/media/arrow.c7501aade9bf6bba821c.svg",
+    "main.875be042.css.map": "/rickmorty/static/css/main.875be042.css.map",
+    "main.c10924fc.js.map": "/rickmorty/static/js/main.c10924fc.js.map",
+    "787.28cb0dcd.chunk.js.map": "/rickmorty/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.875be042.css",
+    "static/js/main.c10924fc.js"
+  ]
+}
